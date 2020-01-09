@@ -1,0 +1,28 @@
+{
+  "name": "ethereum-erc20-token",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "scripts": {
+    "test": "npx mocha --exit --recursive test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@openzeppelin/contracts": "^2.4.0",
+    "@truffle/hdwallet-provider": "^1.0.28",
+    "truffle": "^5.1.5"
+  },
+  "devDependencies": {
+    "@openzeppelin/test-environment": "^0.1.1",
+    "@openzeppelin/test-helpers": "^0.5.4",
+    "chai": "^4.2.0",
+    "dotenv": "^8.2.0",
+    "eth-gas-reporter": "^0.2.14",
+    "mocha": "^6.2.2",
+    "solidity-coverage": "^0.7.0-beta.3",
+    "solium": "^1.2.5",
+    "truffle-flattener": "^1.4.2"
+  }
+}
